@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Gadgets and Device Reviews</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="relative h-50">
+        <video autoplay muted loop id="video-bg" class="w-full h-50">
+            <source src="v1.mp4" type="video/mp4">
+        </video>
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center px-4">
+            <h1 class="text-2xl md:text-4xl font-bold">Tech Gadgets and Device Reviews</h1>
+            <nav class="mt-3">
+                <ul class="flex flex-col md:flex-row justify-center space-y-2 md:space-y-0 md:space-x-4">
+                    <li><a class="text-white hover:text-gray-300" href="#reviews">Reviews</a></li>
+                    <li><a class="text-white hover:text-gray-300" href="#recommendations">Device Recommendations</a>
+                    </li>
+                    <li><a class="text-white hover:text-gray-300" href="#comparison">Comparison</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="py-16">
+        <section id="reviews" class="mb-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-8">
+                    <h2 class="text-3xl font-semibold">Reviews</h2>
+                </div>
+                <div class="mb-8">
+                    <h3 class="text-xl font-medium">Review of Smartphone</h3>
+                    <p class="mt-2">This is a comprehensive review of the latest Smartphones. It covers its design,
+                        performance, camera quality, battery life, and more.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-6">
+                        <div class="text-center">
+                            <img src="ph1.png" class="mx-auto w-32 h-32 object-cover">
+                            <p>iphone 12 pro</p>
+                        </div>
+                        <div class="text-center">
+                            <img src="ph2.png" class="mx-auto w-32 h-32 object-cover">
+                            <p>samsung ace 4</p>
+                        </div>
+                        <div class="text-center">
+                            <img src="ph3.png" class="mx-auto w-32 h-32 object-cover">
+                            <p>samsung note 6</p>
+                        </div>
+                        <div class="text-center">
+                            <img src="ph4.png" class="mx-auto w-32 h-32 object-cover">
+                            <p>iphone 11</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-8">
+                    <h3 class="text-xl font-medium">Review of Laptop</h3>
+                    <p class="mt-2">Discover the ultimate guide to finding your perfect laptop with our in-depth
+                        reviews. From sleek ultrabooks to powerful gaming rigs, we meticulously evaluate the latest
+                        models to help you make informed decisions.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-6">
+                        <div class="text-center">
+                            <img src="l2.png" class="mx-auto w-50 h-32 object-cover">
+                            <p>Toshiba</p>
+                        </div>
+                        <div class="text-center">
+                            <img src="l3.png" class="mx-auto w-50 h-32 object-cover">
+                            <p>Mcbook</p>
+                        </div>
+                        <div class="text-center">
+                            <img src="l4.png" class="mx-auto w-50 h-32 object-cover">
+                            <p>Samsung</p>
+                        </div>
+                        <div class="text-center">
+                            <img src="l5.png" class="mx-auto w-50 h-32 object-cover">
+                            <p>Acer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-8">
+                    <h3 class="text-xl font-medium">Review of Gaming devices</h3>
+                    <p class="mt-2">Discover the ultimate guide to finding your perfect games with our in-depth reviews.
+                        From sleek ultrabooks to powerful gaming rigs, we meticulously evaluate the latest models to
+                        help you make informed decisions.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-6">
+                        <div class="text-center">
+                            <img src="n2.png" class="mx-auto w-50  h-32 object-cover">
+                            <p>wii switch</p>
+                        </div>
+                        <div class="text-center">
+                            <img src="n3.png" class="mx-auto w-50 h-32 object-cover">
+                            <p>PSP</p>
+                        </div>
+                        <div class="text-center">
+                            <img src="n4.png" class="mx-auto w-50 h-32 object-cover">
+                            <p>Nitendo switch 2</p>
+                        </div>
+                        <div class="text-center">
+                            <img src="n1.png" class="mx-auto w-50 h-32 object-cover">
+                            <p>Nitendo switch 1</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="recommendations" class="mb-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-semibold text-center mb-8">Device Recommendations</h2>
+                <ul class="list-disc pl-5">
+                    <li class="mb-2">Top 5 Smartphones under $500</li>
+                    <li class="mb-2">Best Laptops for Gaming</li>
+                    <li class="mb-2">Recommended Smart Home Devices</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="comparison" class="mb-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-semibold text-center mb-8">Comparison</h2>
+                <p class="text-center">Compare different electronic devices side by side to make an informed decision.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-8 bg-gray-900 text-white text-center">
+        <div class="container mx-auto px-4">
+            <p>&copy; 2024 Tech Gadgets and Device Reviews</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.js"></script>
+</body>
+
+</html>
