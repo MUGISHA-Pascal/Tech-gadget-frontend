@@ -139,6 +139,35 @@ footer {
     justify-content: space-between;
 }
 
+.clm {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.column-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.image-li-b {
+    border-left: 4px solid white;
+    padding: 0px 20px;
+}
+
+.column-li {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(222, 215, 215, 0.101);
+    border-radius: 20px;
+    padding: 7px
+}
+
+.image-li {
+    width: 300px;
+}
+
 .s1,
 .s2 {
     flex: 1;
