@@ -167,21 +167,28 @@ footer {
     width: 600px;
     height: 200px;
 }
-.comparison-li-d{
+
+.comparison-li-d {
     background-color: rgba(222, 215, 215, 0.101);
-    display:flex;
-    flex-direction:row;
-    gap:20px;
-    border-radius:20px;
-    height:200px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border-radius: 20px;
+    height: 200px;
+    font-size: 12px;
 }
-.macs,.iphones,.joys{
-    border-radius:20px;
+
+.macs,
+.iphones,
+.joys {
+    border-radius: 20px;
 }
-.comparison-li-d div{
+
+.comparison-li-d div {
     border-left: 4px solid white;
-    padding:13px;
+    padding: 13px;
 }
+
 .image-li {
     width: 200px;
 }
@@ -241,11 +248,105 @@ footer {
         flex-direction: column;
         width: 100%;
         text-align: center;
+        grey;
+        border-radius: 20px;
+    }
+
+    .hamburger {
+        display: none;
+        font-size: 30px;
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+
+    /* Responsive Styles */
+    @media only screen and (max-width: 768px) {
+        header h1 {
+            font-size: 24px;
+        }
+
+        .hamburger {
+            display: block;
+        }
+
+        .menu {
+            display: none;
+            flex-direction: column;
+            width: 100%;
+            text-align: center;
+        }
+
+        .menu.show {
+            display: flex;
+        }
+
+
+
+        .menu li {
+            margin: 10px 0;
+        }
+
+        nav ul li {
+            display: block;
+            margin: 10px 0;
+            /* background-color: rgba(222, 215, 215, 0.362); */
+            background-color: black;
+            padding: 7px;
+            border-radius: 10px;
+        }
+
+
+
+        section {
+            padding: 20px 0;
+        }
+
+        .div2,
+        .div3 {
+            display: block;
+        }
+
+        .l1 {
+            width: 170px;
+        }
+
+        .clm {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .column-li {
+            display: flex;
+            flex-direction: column;
+            height: 400px;
+            width: 100%;
+            padding: 7px;
+            margin: 7px;
+        }
+
+        .image-li-b {
+            width: 100%;
+            font-size: 10px;
+        }
+
+        .comparison-li-d {
+            display: flex;
+            flex-direction: column;
+            height: 400px;
+            width: 100%;
+            padding: 7px;
+            margin: 7px;
+            font-size: 10px;
+        }
     }
 
     .menu.show {
         display: flex;
     }
+
+
 
     .menu li {
         margin: 10px 0;
@@ -254,7 +355,13 @@ footer {
     nav ul li {
         display: block;
         margin: 10px 0;
+        /* background-color: rgba(222, 215, 215, 0.362); */
+        background-color: black;
+        padding: 7px;
+        border-radius: 10px;
     }
+
+
 
     section {
         padding: 20px 0;
@@ -268,21 +375,34 @@ footer {
     .l1 {
         width: 170px;
     }
-    .clm{
+
+    .clm {
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
     }
-    .column-li{
+
+    .column-li {
         display: flex;
-        flex-direction:column;
-        height:400px;
-        width:100%;
-        padding:7px;
-        margin:7px;
+        flex-direction: column;
+        height: 400px;
+        width: 100%;
+        padding: 7px;
+        margin: 7px;
     }
-    .image-li-b{
-        width:100%;
-        font-size:10px;
+
+    .image-li-b {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .comparison-li-d {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        width: 100%;
+        padding: 7px;
+        margin: 7px;
+        font-size: 10px;
     }
 
 }
@@ -307,5 +427,52 @@ left:0;
 @media only screen and (min-width:768) {
     header {
         width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1424px) {
+    .clm {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column-li {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        width: 100%;
+        padding: 7px;
+        margin: 7px;
+    }
+
+    .image-li-b {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .comparison-li-d {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        width: 100%;
+        padding: 7px;
+        margin: 7px;
+        font-size: 12px;
+    }
+
+    .g {
+        width: 200px;
+    }
+
+    .joys,
+    .macs,
+    .iphones {
+        height: 250px;
+    }
+
+    .joys,
+    .iphones,
+    .macs {
+        width: 300px;
     }
 }
