@@ -6,6 +6,10 @@ body {
     color: white;
 }
 
+.div2 {
+    gap: 7px;
+}
+
 .o {
     color: red;
 }
@@ -248,7 +252,6 @@ footer {
         flex-direction: column;
         width: 100%;
         text-align: center;
-        grey;
         border-radius: 20px;
     }
 
